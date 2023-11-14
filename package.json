@@ -1,0 +1,30 @@
+{
+  "type": "module",
+  "name": "kanbas-node-server-app",
+  "version": "1.0.0",
+  "description": "Node.js HTTP Web server for the Kanbas application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vmeet24/kanbas-node-server-app.git"
+  },
+  "keywords": [
+    "Node",
+    "REST",
+    "Server",
+    "HTTP"
+  ],
+  "author": "Meet Vora",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vmeet24/kanbas-node-server-app/issues"
+  },
+  "homepage": "https://github.com/vmeet24/kanbas-node-server-app#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
